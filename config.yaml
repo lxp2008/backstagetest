@@ -9,7 +9,7 @@ spec:
   lifecycle: production
   owner: user:guest
   dependsOn:
-	- component:boutique-frontend
-	- component:boutique-products
+    - component:boutique-frontend
+    - component:boutique-products
   providesApis:
     - boutique-carts-api
